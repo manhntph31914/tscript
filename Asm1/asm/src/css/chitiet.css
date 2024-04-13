@@ -1,0 +1,100 @@
+.product{
+    display: flex;
+    margin: 60px 0px;
+}
+.pr-center{
+    margin-left: 12px;
+    margin-right: 50px;
+
+}
+.pr-left img{
+    margin-bottom: 11px;
+}
+.star{
+    display: flex;
+    margin: 20px 0px;
+}
+.ct-1 .price{
+    margin: 20px 0px;
+    font-size: 25px;
+}
+.ct-1 .span{
+    margin: 20px 0px;
+    font-size: 17px;
+}
+.gach{
+    margin: 0px 20px;
+}
+.bn:focus{
+    background-color: brown;
+}
+.color{
+    display: flex;
+    margin: 20px 0px;
+}
+.color p{
+    font-size: 25px;
+    margin-right: 12px;
+}
+
+.bn-color-1{
+    width: 30px;
+    height: 30px;
+    color: white;
+    margin-right: 12px;
+    border-radius: 20px;
+    background-color: red;
+    
+}
+
+.bn-color-1:focus{
+    border: 3px solid black;
+}
+
+.bn-color-2{
+    width: 30px;
+    height: 30px;
+    color: white;
+    border-radius: 20px;
+    background-color: blue;
+}
+
+.radio{
+    display: flex;
+}
+.size{
+    display: flex;
+    margin: 20px 0px;
+}
+.size p{
+    font-size: 25px;
+    margin-right: 12px;
+    margin-top: 5px;
+}
+.size button{
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+}
+.buy{
+    display: flex;
+    margin: 20px 0px;
+}
+.buy .ph--heart-thin{
+    margin-bottom: 5px;
+    width: 45px;
+    height: 45px;
+}
+.btn-buy{
+    width: 200px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    margin-right: 12px;
+}
+
+
+
+
+
+

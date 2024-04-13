@@ -1,0 +1,15 @@
+.add input{
+    width: 100%;
+    height: 30px;
+    
+}
+.add .ip-form {
+    margin: 20px 0px;
+}
+h1{
+    text-align: center;
+}
+.add button{
+    padding: 12px;
+    text-align: center;
+}

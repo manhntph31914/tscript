@@ -1,0 +1,64 @@
+import React from 'react';
+import '../../css/style.css'; // Import CSS file
+import '../../css/icon.css';
+import bn6 from '../../images/bn6.webp';
+
+type Props = {};
+
+const Header = (props: Props) => {
+  return (
+    <div>
+        <div className="menu">
+            <h2>Exclusive</h2>
+
+            <nav>
+            <ul>
+                <li><a href="/">Home</a></li> {/* Sửa href="" thành href="/" */}
+                <li><a href="/">Contact</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Sign Up</a></li>
+            </ul>
+            </nav>
+
+            <div className="icon">
+            <form action="" className="sear">
+                <input type="text" placeholder="What are you looking for?" />
+                <button type="submit">Search</button>
+            </form>
+            <a href="/"><span className="ph--shopping-cart-thin"></span></a> 
+            <a href="/"><span className="ph--heart-thin"></span></a> 
+            <a href="login.html"><span className="circum--user"></span></a> 
+            </div>
+        </div>
+        <hr />
+
+      <div className="banner">
+        <div className="left">
+          <ul>
+            <li><a href="/">Woman’s Fashion</a></li>
+            <li><a href="/">Men’s Fashion</a></li>
+            <li><a href="/">Electronics</a></li>
+            <li><a href="/">Home & Lifestyle</a></li>
+            <li><a href="/">Medicine</a></li>
+            <li><a href="/">Sports & Outdoor</a></li>
+            <li><a href="/">Baby’s & Toys</a></li>
+            <li><a href="/">Groceries & Pets</a></li>
+            <li><a href="/">Health & Beauty</a></li>
+          </ul>
+        </div>
+
+        <div className="slideshow-container">
+            <div className="mySlides fade">
+                <img src={bn6} alt="Banner" />  
+            </div>
+            
+        </div>
+        </div>
+        
+       
+
+    </div>
+  );
+};
+
+export default Header;
